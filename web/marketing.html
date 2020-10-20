@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #50d890;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+  background-color: #381460;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+<body>
+
+<h3 style=color:red> Marketing Staff Login </h3>
+
+<div>
+   <form action="checkmarket.jsp"> 
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="Email">
+
+    <label for="pwd">Password</label>
+    <input type="password" id="pwd" name="pwd" placeholder="Password">
+
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
